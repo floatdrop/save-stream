@@ -37,4 +37,17 @@ describe('save-stream', function () {
             });
     });
 
+    it('should get data, that comes after load call', function (done) {
+        var saved = save();
+        saved.write(1);
+        saved.write(2);
+        saved.load()
+            .pipe(assert.length(3))
+            .on('end', done);
+        setTimeout(function () {
+            saved.write(3);
+            saved.end();
+        }, 10);
+    });
+
 });
