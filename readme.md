@@ -33,6 +33,18 @@ setTimeout(function () {
 */
 ```
 
+## API
+
+### save()
+
+Returns pass through stream with additional method
+
+#### save.load()
+
+Returns pass through stream, that will emit all data from the begining.
+
+__Note__: it may change to `1.0.0` version, because initialy I wanted just overload `pipe` method.
+
 ## License
 
 MIT (c) 2014 Vsevolod Strukchinsky
