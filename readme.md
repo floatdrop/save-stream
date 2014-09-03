@@ -1,6 +1,6 @@
 # save-stream
 
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependency Status][depstat-image]][depstat-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][depstat-image]][depstat-url]
 
 Save stream contents and pipe it again later.
 
@@ -45,6 +45,3 @@ MIT (c) 2014 Vsevolod Strukchinsky
 
 [depstat-url]: https://david-dm.org/floatdrop/save-stream
 [depstat-image]: http://img.shields.io/david/floatdrop/save-stream.svg?style=flat
-
-[coveralls-url]: https://coveralls.io/r/floatdrop/save-stream
-[coveralls-image]: http://img.shields.io/coveralls/floatdrop/save-stream.svg?style=flat
