@@ -16,9 +16,9 @@ saved.write(3);
 saved.write(4);
 saved.end();
 
-saved.load().pipe(console.log());
+saved.load().pipe(console.log);
 setTimeout(function () {
-    saved.load().pipe(console.log());
+    saved.load().pipe(console.log);
 }, 1000);
 
 /* Output:
